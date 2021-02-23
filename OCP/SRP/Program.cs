@@ -6,7 +6,7 @@ namespace ViolOCP
      {
           static void Main(string[] args)
           {
-               ILogger log = new FileLogger("Age can't be negative!!");
+               ILogger log = new DBLogger("Age can't be negative!!");
                
                Player player = new Player(log);
 

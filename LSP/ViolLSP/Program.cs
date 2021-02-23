@@ -6,7 +6,7 @@ namespace ViolLSP
      {
           static void Main(string[] args)
           {
-               Player forward = new Driver();
+               Player forward = new Forward(2, 24);
 
                int points = forward.playerRating();
 

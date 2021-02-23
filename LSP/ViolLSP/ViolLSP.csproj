@@ -46,7 +46,7 @@
     <Compile Include="Player.cs" />
     <Compile Include="PlayerRating.cs" />
     <Compile Include="Forward.cs" />
-    <Compile Include="Driver.cs" />
+    <Compile Include="PoolPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

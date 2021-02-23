@@ -6,7 +6,7 @@ namespace ISPP
      {
           static void Main(string[] args)
           {
-               Player player = new Forward();
+               Player player = new Goalkeeper();
 
                player.Show();
                

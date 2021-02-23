@@ -9,7 +9,8 @@ namespace SRP
                Logger logger = new Logger();
 
                Player player = new Player(logger);
-               player.Age = -20;
+
+               player.Age = 20;
 
                Console.ReadKey();
           }

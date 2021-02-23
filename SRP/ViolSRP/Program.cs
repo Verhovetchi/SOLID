@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ViolSRP
 {
@@ -12,14 +8,8 @@ namespace ViolSRP
           {
                Player player = new Player();
 
-               try
-               {
-                    player.Age = -20;
-               }
-               catch (Exception e)
-               {
-                    Console.WriteLine(e.Message);
-               }
+               player.Age = 30;
+               
 
                Console.ReadKey();
           }
